@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+    <title>Hello App Engine</title>
+  </head>
+
+  <body>
+    <h1>Add a book:</h1>
+
+	<form action="/bookclient" method="post">
+	Book's name:<input type='text' name='name' value=''><br>
+	Number of pages: <input type='number' name='pages' value=''><br>
+	<input type='submit' name='ok' value='Send'>
+	</form>
+	
+	<a href='/bookservlet'> Katso kirjat</a>
+  </body>
+</html>

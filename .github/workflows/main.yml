@@ -11,5 +11,5 @@ jobs:
       - name: Robot Framework
         uses: joonvena/robotframework-docker-action@v1.0
         with:
-          start: npm start
+          robot_reports_dir: C:\Madrid
 

@@ -10,12 +10,13 @@ jobs:
         run: npm init -y && npm install
      # - name: Cypress.io
        # uses: cypress-io/github-action@v2.9.7
+        # with:
+         #   build: npm run build
+          #  start: npm start
 
       - name: Robot Framework
         uses: joonvena/robotframework-docker-action@v1.0
-        with:
-          build: npm run build
-          start: npm start
+
       
         
           

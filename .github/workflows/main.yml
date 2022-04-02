@@ -13,8 +13,9 @@ jobs:
         with:
           build: npm run build
           start: npm start
-      - name: Run Jest
-        run: npm test
+      - name: Robot Framework
+        uses: joonvena/robotframework-docker-action@v1.0
+      
         
           
 

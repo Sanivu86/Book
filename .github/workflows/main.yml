@@ -9,7 +9,13 @@ jobs:
       - name: Setup npm package
         run: npm init -y && npm install
       - name: Cypress.io
-        uses: cypress-io/github-action@v2.9.7
+        uses: cypress-io/github-action@f06537910911844bce953022f6d643a0f69fd73b
+        with:
+          build: npm run build
+          start: npm start
+      - name: Run Jest
+        run: npm test
+        
           
 
 

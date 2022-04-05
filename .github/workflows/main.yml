@@ -6,10 +6,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3.0.0  
-     # - name: Setup npm package
-     #   run: npm init -y && npm install
-      - name: npm setup
-        uses: ng-easy/npm-setup@v1.7.2
+      - name: Setup npm package
+        run: npm init -y && npm install
       - name: Cypress.io
         uses: cypress-io/github-action@v2.9.7
         with:

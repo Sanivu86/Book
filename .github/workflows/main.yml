@@ -14,8 +14,6 @@ jobs:
               build: npm run build
               start: npm start
 
-      #- name: Robot Framework
-      #  uses: joonvena/robotframework-docker-action@v1.0
 
       
         
